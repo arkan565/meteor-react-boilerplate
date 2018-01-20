@@ -1,7 +1,8 @@
 {
-  "name": "short-lnk-app",
-  "private": true,
-  "scripts": {
+  {
+    "name": "short-lnk-app",
+    "private": true,
+    "scripts": {
     "start": "meteor run"
   },
   "dependencies": {
