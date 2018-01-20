@@ -3,7 +3,7 @@ import {Account} from 'meteor/meteor-base'
 import {Meteor} from 'meteor/meteor';
 import PrivateHeader from './PrivateHeader'
 
-export default class Link extends React.Component {
+export default class Dashboard extends React.Component {
   constructor(props){
     super(props);
   }
