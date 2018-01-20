@@ -1,5 +1,5 @@
 import React from 'react';
-import { dashboard } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { Meteor } from 'meteor/meteor'
 
 export default class Login extends React.Component {
@@ -42,7 +42,7 @@ export default class Login extends React.Component {
                <input type="password" ref="password" name="password" placeholder="Password"/>
                <button className="button">Login</button>
              </form>
-             <dashboard to="/signup">You dont have account? Sign up</dashboard>
+             <Link to="/signup">You dont have account? Sign up</Link>
            </div>
       </div>
     )
